@@ -44,7 +44,7 @@ export class SeleniumService {
         By.xpath('/html/body/div[1]/div[1]/div[2]/div[1]/form/div[5]/button'),
       )
       .click();
-    await this.driver.sleep(5000); // 5초 대기
+    await this.driver.sleep(4000);
   }
 
   async goToCart() {

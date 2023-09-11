@@ -8,5 +8,6 @@ export class AccountController {
   @Post('login')
   login(@Body() loginUserData: LoginUserDto) {
     const result = this.accountService.login(loginUserData);
+    return result;
   }
 }
